@@ -1,5 +1,8 @@
 = eland: pandas-like data analysis toolkit backed by {es}
 
+include::{asciidoc-dir}/../../shared/versions/stack/{source_branch}.asciidoc[]
+include::{asciidoc-dir}/../../shared/attributes.asciidoc[]
+
 == Overview
 
 eland is an open source, Apache2-licensed {es} Python client to analyse, explore 
@@ -29,6 +32,4 @@ pip install eland
 
 Check https://eland.readthedocs.io/en/latest/[the eland documentation site] for 
 the full documentation and the latest updates.
-
-include::{asciidoc-dir}/../../shared/attributes.asciidoc[]
 
