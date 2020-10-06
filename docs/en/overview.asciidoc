@@ -1,0 +1,15 @@
+[[overview]]
+== Overview
+
+eland is an open source, Apache2-licensed {es} Python client to analyse, explore 
+and manipulate data that resides in {es}. Where possible the package uses 
+existing Python APIs and data structures to make it easy to switch between 
+Numpy, Pandas, Scikit-learn to their {es} powered equivalents. In general, the 
+data resides in {es} and not in memory, which allows eland to access large 
+datasets stored in {es}.
+
+The eland source code is hosted on GitHub in 
+https://github.com/elastic/eland[the eland repository].
+
+Check https://eland.readthedocs.io/en/latest/[the eland documentation site] for 
+the full documentation and the latest updates.
