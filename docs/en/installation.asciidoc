@@ -1,0 +1,20 @@
+[[installation]]
+== Installation
+
+Binary installers for the latest released version are available at the 
+https://pypi.org/project/eland[Python package index].
+
+You can install eland by using pip:
+
+[source,sh]
+------------------------------------
+pip install eland
+------------------------------------
+
+You can also install eland from 
+https://anaconda.org/conda-forge/eland[Conda Forge] with Conda:
+
+[source,sh]
+------------------------------------
+conda install -c conda-forge eland
+------------------------------------
