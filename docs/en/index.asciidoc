@@ -3,33 +3,6 @@
 include::{asciidoc-dir}/../../shared/versions/stack/{source_branch}.asciidoc[]
 include::{asciidoc-dir}/../../shared/attributes.asciidoc[]
 
-== Overview
-
-eland is an open source, Apache2-licensed {es} Python client to analyse, explore 
-and manipulate data that resides in {es}. Where possible the package uses 
-existing Python APIs and data structures to make it easy to switch between 
-Numpy, Pandas, Scikit-learn to their {es} powered equivalents. In general, the 
-data resides in {es} and not in memory, which allows eland to access large 
-datasets stored in {es}.
-
-See https://eland.readthedocs.io/en/latest/[eland documentation] for further 
-details.
-
-
-=== Installing eland
-
-The source code is currently hosted on GitHub at: 
-https://github.com/elastic/eland
-
-Binary installers for the latest released version are available at the 
-https://pypi.org/project/eland[Python package index].
-
-```
-pip install eland
-```
-
-=== Documentation
-
-Check https://eland.readthedocs.io/en/latest/[the eland documentation site] for 
-the full documentation and the latest updates.
+include::overview.asciidoc[]
+include::installation.asciidoc[]
 
